@@ -115,4 +115,4 @@ python agent.py dev
 
 - **Groups & Isolation:** RAG context is strictly isolated per group. A user querying data in Project A will never receive context or document embeddings from Project B.
 - **Intent Classification:** The system uses Groq to identify if an utterance is a `QUESTION` or a `STATEMENT`. RAG suggestions are *only* generated for questions to reduce noise for Project Managers.
-
+- **Transcripts:** Call transcripts are processed incrementally and embedded for future retrieval. They are designed to act as an invisible context layer and are never directly rendered in the chat UI.
