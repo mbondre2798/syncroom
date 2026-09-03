@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic
+python-multipart
+httpx
+# --- RAG ---
+sentence-transformers
+groq
+pypdf
+# --- LiveKit voice pipeline (agent.py) ---
+livekit-agents
+livekit-plugins-deepgram
+livekit-plugins-silero
